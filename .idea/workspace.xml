@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7c807a6-c079-4800-b082-97cdcd80fc9d" name="Changes" comment="">
+    <list default="true" id="e7c807a6-c079-4800-b082-97cdcd80fc9d" name="Changes" comment="install gh-pages end edit readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreateCustomer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Customer.js" beforeDir="false" />
     </list>
@@ -66,7 +63,27 @@
       <recent name="$PROJECT_DIR$/src/features/accounts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.predeploy">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -79,6 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -101,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741979018315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="install gh-pages end edit readme.md">
+      <created>1741981013494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741981013494</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create slice for account" />
-    <option name="LAST_COMMIT_MESSAGE" value="create slice for account" />
+    <MESSAGE value="install gh-pages end edit readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="install gh-pages end edit readme.md" />
   </component>
 </project>
